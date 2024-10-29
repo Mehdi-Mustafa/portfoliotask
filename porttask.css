@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+.container{
+    background-image: url('../TASK/realistic-chalk-blackboard_52683-74056.jpg');
+}
+.nav-items{
+    padding: 1%;
+    color: white;
+}
+.your-logo{
+    font-size: xx-large;
+    color:white;
+}
+ul{
+    color:white;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+li{
+    
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    /* border: 1px solid; */
+}
+.links-lists{
+    display: flex;
+    gap: 30%;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.search-input-div{
+    border: 1px solid;
+    background-color: white;
+}
+.search-input{
+    border: none;
+
+}
+.search-icon{
+    /* border: 1px solid; */
+    background-color: yellow;
+    padding: 10px;
+    color: black;
+}
+.cart-div{
+    display: flex;
+    gap: 30%;
+}
+i{
+    font-size: x-small;
+}
+.main-text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3em;
+    padding: 10%;
+}
+.food-gallery{
+    font-size: xx-large;
+    color: white;
+}
+.lorem-div{
+    font-size: x-large;
+    color: white;
+    font-family:monospace;
+}
+
+ .image-div-width{
+    width:100%;
+ }
+
+ .img-grid-div{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+ }
+ .img-grid{
+    width: 100%;
+    padding: 2%;
+    height: 45vh;
+ }
+ 
+  footer {
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+}
+.footerDivOne,.footerDivTwo,.footerDivThree,.footerDivFour{
+    width: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.footerContact1,.footerContact2,.footerContact3,.footerContact4,.footerPost,.footerPost1,.footerTwitterfeed1{
+    margin-bottom: 4%;
+}
+.footerPost1{
+border-bottom: 1px solid rgb(114, 91, 91);
+}
+.footerInstagram1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 4%;
+    column-gap: 15px;
+    row-gap: 25px;
+}
+.footerInstagramimgs{
+    width: 45px;
+    height: 45px;
+}
+.footerTwitterfeed{
+    display: flex; 
+    column-gap: 5px;   
+}
+#Twitter{
+margin-top: 5px;
+}
